@@ -36,7 +36,7 @@
    <rebind device="joystick" input="js3_x"/>
   </action>
   <action name="v_decoupled_yaw">
-   <rebind device="joystick" input="js3_rotz"/>
+   <rebind device="joystick" input="js1_rotz"/>
   </action>
   <action name="v_strafe_lateral">
    <rebind device="joystick" input="js3_x"/>
@@ -56,6 +56,9 @@
   <action name="v_strafe_up">
    <rebind device="joystick" input=" "/>
   </action>
+  <action name="v_throttle_rel">
+   <rebind device="joystick" input="js1_slider1"/>
+  </action>
   <action name="v_throttle_abs">
    <rebind device="joystick" input=" "/>
   </action>
@@ -69,10 +72,27 @@
    <rebind device="joystick" input="js3_y"/>
   </action>
   <action name="v_decoupled_roll">
-   <rebind device="joystick" input="js3_roty"/>
+   <rebind device="joystick" input="js1_x"/>
   </action>
-  <action name="v_decoupled_pitch">
-   <rebind device="joystick" input="js3_rotx"/>
+ </actionmap>
+ <actionmap name="spaceship_targeting">
+  <action name="v_aim_pitch_down">
+   <rebind device="joystick" input=" "/>
+  </action>
+  <action name="v_aim_pitch_up">
+   <rebind device="joystick" input=" "/>
+  </action>
+  <action name="v_aim_pitch">
+   <rebind device="joystick" input=" "/>
+  </action>
+  <action name="v_aim_yaw_right">
+   <rebind device="joystick" input=" "/>
+  </action>
+  <action name="v_aim_yaw_left">
+   <rebind device="joystick" input=" "/>
+  </action>
+  <action name="v_aim_yaw">
+   <rebind device="joystick" input=" "/>
   </action>
  </actionmap>
 </ActionMaps>
